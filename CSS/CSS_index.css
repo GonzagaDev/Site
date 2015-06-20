@@ -1,0 +1,37 @@
+body{
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+}
+#logo{
+    padding-top: 80px;
+    padding-left: 30px;
+}
+#titulo{
+    padding-top: 170px;
+}
+#area-restrita{
+    border: solid dodgerblue;
+    border-radius: 5px;
+    background: 0;
+    background-color:dodgerblue;
+    font-family: cursive;
+    font-size: 40px;
+    color: cornsilk;
+    margin-left: 1040px;
+   margin-top: 10px;
+}
+#entrar-site{
+    border: solid dodgerblue;
+    border-radius: 5px;
+    background: 0;
+    background-color:dodgerblue;
+    font-family: cursive;
+    font-size: 40px;
+    color: cornsilk;
+    margin-left: 1040px;
+    margin-top: 0px;
+}
+#area-restrita:active, #entrar-site:active{
+    background-color:#104E8B;
+    color: black;
+}

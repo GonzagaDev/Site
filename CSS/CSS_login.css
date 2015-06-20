@@ -1,0 +1,46 @@
+body{
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+}
+#cab{
+    background-color: black;
+    background-size: cover;
+    height: 50px;
+}
+fieldset{
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    margin-top: 160px;
+    margin-left: 470px;
+}
+input{
+    border-radius: 5px;
+    margin-left: 65px;
+    border: 0;
+    height: 22px;
+}
+label{
+    color: white;
+    padding-left: 65px;
+}
+h1{
+    margin-top: -40;
+    color: white;
+    padding-left: 480px;
+    font-family: serif;
+}
+#acessar{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    border: dodgerblue;
+    background: 0;
+    background-color:dodgerblue; 
+    height: 50px;
+    width: 168px;
+}
+#acessar:active{
+    background-color:#104E8B;
+    color: black;
+}
