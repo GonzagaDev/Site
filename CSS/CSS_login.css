@@ -1,46 +1,114 @@
-body{
-    background-image: url(../imagens/background.jpg);
-    background-size: cover;
+body {
+	background-image: url(../imagens/background.jpg);
+	background-size: cover;
 }
-#cab{
-    background-color: black;
-    background-size: cover;
-    height: 50px;
+
+#cab {
+	background-color: black;
+	background-size: cover;
+	height: 50px;
 }
-fieldset{
-    border-radius: 10px;
-    height: 250px;
-    width: 300px;
-    margin-top: 160px;
-    margin-left: 470px;
+
+#fielsset-Login {
+	border-radius: 10px;
+	height: 250px;
+	width: 300px;
+	margin-top: 160px;
+	margin-left: 470px;
 }
-input{
-    border-radius: 5px;
-    margin-left: 65px;
-    border: 0;
-    height: 22px;
+
+.menu {
+	margin-top: 50px;
 }
-label{
-    color: white;
-    padding-left: 65px;
+
+.fielsset-menu-esquerdo {
+	border-radius: 10px;
+	height: 200px;
+	width: 250px;
+	margin-top: 50px;
+	margin-left: 5%;
 }
-h1{
-    margin-top: -40;
-    color: white;
-    padding-left: 480px;
-    font-family: serif;
+
+.fielsset-menu-centro {
+	border-radius: 10px;
+	height: 200px;
+	width: 250px;
+	margin-top: -215px;
+	margin-left: 515px;
 }
-#acessar{
-    color: white;
-    font-family: cursive;
-    font-size: 20px;
-    border: dodgerblue;
-    background: 0;
-    background-color:dodgerblue; 
-    height: 50px;
-    width: 168px;
+
+.fielsset-menu-direito {
+	border-radius: 10px;
+	height: 200px;
+	width: 250px;
+	margin-top: -215px;
+	margin-left: 73%;
 }
-#acessar:active{
-    background-color:#104E8B;
-    color: black;
+
+.StepTitle {
+	margin-top: -40;
+	color: white;
+	margin-left: 25px;
+	font-family: serif;
+}
+
+.menu-topo {
+	background-color: #87CEEB;
+	border-bottom-color: #ADD8E6;
+	-webkit-border-radius: 10px 10px 30px 30px;
+}
+
+p {
+	color: white;
+}
+
+#LinkdoMenu {
+	color: blue;
+	font-style: normal;
+	margin-left: 25%;
+	font-size: 22px;
+	font: bold;
+	font: sans-serif;
+}
+
+.botao-cadastrar-menu {
+	background-color:#87CEEB;
+	width:150px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	margin-left: 20%;
+}
+
+input {
+	border-radius: 5px;
+	margin-left: 65px;
+	border: 0;
+	height: 22px;
+}
+
+label {
+	color: white;
+	padding-left: 65px;
+}
+
+h1 {
+	margin-top: -40;
+	color: white;
+	padding-left: 480px;
+	font-family: serif;
+}
+
+#acessar {
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	border: dodgerblue;
+	background: 0;
+	background-color: dodgerblue;
+	height: 50px;
+	width: 168px;
+}
+
+#acessar:active {
+	background-color: #104E8B;
+	color: black;
 }

@@ -13,7 +13,7 @@
 		<a href="../index.php"><img alt="" src="../imagens/seta.png" /> </a>
 		<h1>Acesso a Area Restrita</h1>
 	</div>
-	<script language="JavaScript">
+	<!--<script language="JavaScript">
 					if ("document.location = 'login.php?erro=1'"){
 						</script>
 	<div class="alert alert-danger">
@@ -26,8 +26,8 @@
 	<script type="text/javascript">
 
 					}        	
-    </script>
-	<fieldset>
+    </script>-->
+	<fieldset id="fielsset-Login">
 		<br /> <br /> <br />
 		<form action="../models/login_db.php" method="post">
 			<label for="nome">Usuário</label><br /> <input type="text"
