@@ -118,96 +118,13 @@ h1 {
 }
 
 .DivAvatar {
-	background-color: gray;
+	background-color: blue;
 	width: 210px;
 	height: 45px;
 	margin-left: 80%;
 	margin-top: -65px;
-	opacity: 0.65;
-	-webkit-border-radius: 10px 10px 10px 10px;
 }
 
 #avatar {
-	-webkit-border-radius: 10px 10px 10px 10px;
-	margin-left: 145;
-	margin-top: -32;
+-webkit-border-radius: 20px 20px 20px 20px;	
 }
-
-.frm_cadastro {
-	background-color: grey;
-	width: 500px;
-	height: 500px;
-	margin-top: 50px;
-	margin-left: 30%;
-	opacity: 0.65;
-	-webkit-border-radius: 10px 10px 10px 10px;
-}
-
-.Header-form {
-	border-style: solid;	
-	-webkit-border-radius: 10px 10px 10px 10px;
-	height: 40px;
-	padding: 15px;
-	margin-bottom: 20px;
-	border: 1px solid transparent;
-	border-radius: 4px;
-	color: black;
-	background-color: #696969;
-	border-color: #696969;
-}
-
-}
-.footer-form {
-	border-style: solid;
-	border-color: #2F4F4F;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	height: 15px;
-	margin-top: 200px;
-}
-
-.fiel-form {
-	margin-left: 70px;
-	width: 30px;
-	height: 30px;
-	border-style: none;
-}
-
-.alert {
-	padding: 15px;
-	margin-bottom: 20px;
-	border: 1px solid transparent;
-	border-radius: 4px;
-	color: red;
-	background-color: #f2dede;
-	border-color: #ebccd1;
-}
-
-}
-button.close {
-	-webkit-appearance: none;
-	padding: 0;
-	cursor: pointer;
-	background: 0 0;
-	border: 0;
-}
-
-.close {
-	float: right;
-	font-size: 21px;
-	font-weight: 700;
-	line-height: 1;
-	color: black;
-	text-shadow: 0 1px 0 #fff;
-	filter: alpha(opacity =               20);
-	opacity: .2;
-	font: bold;
-}
-
-button {
-	outline: 0 !important;
-}
-
-a:link 
-{ 
- text-decoration:none; 
-} 
