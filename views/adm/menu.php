@@ -1,22 +1,21 @@
 <?php
 include 'header.php';
 ?>
-<h1>Menu Principal</h1>
+</div>
 <div class="menu">
 	<fieldset class="fielsset-menu-esquerdo">
 		<br /> <br /> <br />
 		<div>
 			<div class="menu-topo">
-				<h2 class="StepTitle">Usuários</h2>
+				<h2 class="StepTitle">Cadastro de Usuários</h2>
 			</div>
 			<p class="">Cadstro e Consultas de usuários</p>
-			<br /> <br />
+			<br /> <br /> 
 			<div class="botao-cadastrar-menu">
 				<a href="CadUser.php" id="LinkdoMenu"> Cadastrar </a>
-			</div>
-			<br />
+			</div><br/>
 			<div class="botao-cadastrar-menu">
-				<a href="ConsUsuario.php" id="LinkdoMenu"> Consultar </a>
+				<a href="CadUser.php" id="LinkdoMenu"> Listar </a>
 			</div>
 		</div>
 
@@ -25,7 +24,7 @@ include 'header.php';
 		<br /> <br /> <br />
 		<div>
 			<div class="menu-topo">
-				<h2 class="StepTitle">Veículos</h2>
+				<h2 class="StepTitle">MENU3</h2>
 			</div>
 			<p class="">Breve descrição do Menu</p>
 			<br /> <br /> <br />
