@@ -20,6 +20,7 @@ include ("../config.php");
 			<div>
 				<img id="avatar" alt="avatar" src="../Imagens/adm/avatar.jpg"
 					width="60" height="40">
+
 			</div>
 
 		</div>
@@ -32,7 +33,7 @@ include ("../config.php");
 
 
 
-		$sql = "SELECT * FROM USUARIO WHERE usuario = '$login' AND senha = '$senha'";
+		$sql = "SELECT * FROM USUARIO WHERE usuario  = '$login' AND senha = '$senha' AND bloqueado <> 'S'";
 
 		$retorno = mysql_query($sql, $mysql);
 		if (mysql_num_rows($retorno)>0){
@@ -48,5 +49,5 @@ include ("../config.php");
 </body>
 </html>
 		<?php
-mysql_close($mysql);
-?>
+		mysql_close($mysql);
+		?>

@@ -9,7 +9,7 @@
 	<div id="cab">
 		<a href="../../index.php"><img alt="" src="../../imagens/seta.png" />
 		</a>
-		<h1>Menu Administrativo</h1>
+
 		<div class="DivAvatar">
 			<p>
 			<?php 
