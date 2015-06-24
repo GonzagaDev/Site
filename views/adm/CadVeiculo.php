@@ -1,7 +1,6 @@
 <?php
 include('../../config.php');
 ?>
-
 <html>
 <head>
 <title></title>
@@ -10,7 +9,6 @@ include('../../config.php');
 </head>
 <body>
 <?php include('header.php'); ?>
-	<h1>Cadastro de Usu√°rios</h1>
 	<form action="../../models/adm/cadastroUsuarioDB.php" method="post"
 		class="frm_cadastro">
 
@@ -20,17 +18,14 @@ include('../../config.php');
 				<span aria-hidden="true">&times;</span>
 
 			</button>
-			<strong> Cadastro de Usu√°rios </strong>
+			<strong> Cadastro de Veiculo </strong>
 		</div>
-		<br /> <br /> <br /> <br /> <label>Nome: </label><br /> <input
-			type="text" name="nome" maxlength="150"
-			style="border: solid 1px white;; background-color: white;"><br /> <label>Usu√°rio:</label><br />
-		<input type="text" name="usuario" maxlength="100"
-			style="border: solid 1px white;; background-color: white;"><br /> <label>Senha:
-		</label><br /> <input type="password" name="senha" height="16"
-			size="15" style="border: solid 1px white;; background-color: white;"
-			maxlength="11" /> <br /> <br /> <input type="submit"
-			value="Cadastrar" />
+		<br /> <br /> <br /> <br /> <label>DescriÁ„o: </label><br /> <input
+			type="text" name="descricao" maxlength="150"
+			style="border: solid 1px white;; background-color: white;"><br /> <label>Placa:</label><br />
+		<input type="text" name="placa" maxlength="100"
+			style="border: solid 1px white;; background-color: white;"><br /> <br />
+		<br /> <input type="submit" value="Cadastrar" />
 		<div class="footer-form"></div>
 
 	</form>
